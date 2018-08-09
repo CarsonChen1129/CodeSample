@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="author" content="Jiajun Chen">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <title>Healthier Choices Program Enrollment</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <!-- Fluent Kit CSS -->
+  <link href="../css/fluent-kit.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="../css/stylesheet.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- START HERE -->
+  <div id="body-content">
+
+    <header>
+      <nav class="navbar fixed-top navbar-dark bg-dark py-2">
+        <a class="navbar-brand" href="#">
+          <img src="../img/logo.png" width="60" height="40" alt="Giant Eagle logo"><span class="d-inline-block align-top ml-2" style="line-height:30px">"That's Another Giant Eagle Advantage"</span>
+        </a>
+        <button class="btn mi navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-position" aria-controls="navbar-position" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="sr-only">Toggle navbar submenu</span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-position">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Healthier Choices Program®<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.gianteagle.com/">Savings</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.gianteagle.com/">Product & Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.gianteagle.com/">Recipes & Planning</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.gianteagle.com/">Online Ordering</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.gianteagle.com/">Pharmacy & Wellness</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.gianteagle.com/">Gift Card</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!--<nav class="navbar navbar-light bg-light">-->
+        <!---->
+      <!--</nav>-->
+    </header>
+
+
+    <main id="main">
+      <div class="container-fluid">
+
+        <div class="container mt-5 pt-5">
+
+          <div class="row bg-white mb-4 pb-5">
+            <div class="col text-center">
+              <h1 class="h1 bold">Healthier Choices Program</h1>
+              <h2 class="sub-h1">Enroll now for healthier life</h2>
+              <p class="p1">
+                A customized program only for our Giant Eagle Advantage Card Member
+              </p>
+
+            </div>
+          </div>
+
+          <div class="row mb-4">
+
+            <aside class="col-md-9 bg-white py-4">
+
+              <h2 class="h3 py-0"><strong>Enrollment</strong></h2>
+              <br>
+              <form class="enroll-form">
+                <ul class="list-view">
+                  <li class="group-name">1. Personal Information</li>
+                  <li>
+                    <label for="card-num">Giant Eagle Advantage Card Number</label>
+                    <input id="card-num" type="text" value="" required>
+                    <button type="button" class="btn btn-primary mi mi-Help"
+                            data-container="body"
+                            data-toggle="popover"
+                            data-placement="right"
+                            title="Why do we need your Giant Eagle Advantage Card Number?"
+                            data-html="true"
+                            data-content="
+                      <div>
+                          We personalized our recommendations based on the data that you previously provided to us in the physical stores.
+                          Thus we need your Giant Eagle Advantage Card Number to locate your stored data.
+                      </div>
+                      <div class='popover-footer'>
+                          <button class='btn btn-primary' data-dismiss='popover'>
+                              OK
+                          </button>
+                      </div>
+    ">
+                    </button>
+                  </li>
+                  <li>
+                    <label for="phone-num">Phone Number</label>
+                    <input id="phone-num" type="text" value="" required>
+                    <button type="button" class="btn btn-primary mi mi-Help"
+                            data-container="body"
+                            data-toggle="popover"
+                            data-placement="right"
+                            title="Why do we need your phone number?"
+                            data-html="true"
+                            data-content="
+                      <div>
+                          We use your Giant Eagle Advantage card number and your phone number to locate your data in our system.
+                      </div>
+                      <div class='popover-footer'>
+                          <button class='btn btn-primary' data-dismiss='popover'>
+                              OK
+                          </button>
+                      </div>
+    ">
+                    </button>
+                  </li>
+                  <li class="group-name">2. Privacy Consents</li>
+                  <li class="lead">We might need to share some of your insensitive information with our advertisement partner to provide better recommendations</li>
+                  <li class="follow">Do we have your consent to share your insensitive information to our ad partner?</li>
+                  <li>
+                    <fieldset class="switch">
+                      <input id="consent" type="checkbox" name="consent"/>
+                      <label for="consent"></label>
+                    </fieldset>
+                    <span>I consent some of my insensitive data will be shared to get better recommendations</span>
+                    <button type="button" class="btn btn-primary mi mi-Help"
+                            data-container="body"
+                            data-toggle="popover"
+                            data-placement="right"
+                            title="Privacy consent"
+                            data-html="true"
+                            data-content="
+                      <div>
+                          We would like to provide better service based on your data. But it's OK if you have privacy concern.
+                      </div>
+                      <div class='popover-footer'>
+                          <button class='btn btn-primary' data-dismiss='popover'>
+                              OK
+                          </button>
+                      </div>
+    ">
+                    </button>
+                    <div class="alert alert-danger" style="margin-top:2%;" role="alert">
+                      We will never share your information to third parties without your consent.
+                      <a href="privacy.html" class="alert-link">Privacy Policy</a>
+                    </div>
+                    <br>
+                  </li>
+                  <li class="follow consent-yes">If yes, which kind of the following ad partners have your consent to access your information?</li>
+                  <li class="consent-yes">
+                    <fieldset class="switch">
+                      <input id="insurance-consent" type="checkbox" name="insurance-consent"/>
+                      <label for="insurance-consent"></label>
+                    </fieldset>
+                    <span>Insurance</span>
+                    <button type="button" class="btn btn-primary mi mi-Help"
+                            data-container="body"
+                            data-toggle="popover"
+                            data-placement="right"
+                            title="Do you want to receive offers from insurance companies?"
+                            data-html="true"
+                            data-content="
+                      <div>
+                          If you want to receive customized offers from insurance companies, please toggle this button.
+                      </div>
+                      <div class='popover-footer'>
+                          <button class='btn btn-primary' data-dismiss='popover'>
+                              OK
+                          </button>
+                      </div>
+    ">
+                    </button>
+                  </li>
+                  <li class="consent-yes">
+                    <fieldset class="switch">
+                      <input id="marketing-consent" type="checkbox" name="marketing-consent"/>
+                      <label for="marketing-consent"></label>
+                    </fieldset>
+                    <span>Marketing</span>
+                    <button type="button" class="btn btn-primary mi mi-Help"
+                            data-container="body"
+                            data-toggle="popover"
+                            data-placement="right"
+                            title="Do you want to receive offers from marketing companies?"
+                            data-html="true"
+                            data-content="
+                      <div>
+                           If you want to receive customized offers from marketing companies, please toggle this button.
+                      </div>
+                      <div class='popover-footer'>
+                          <button class='btn btn-primary' data-dismiss='popover'>
+                              OK
+                          </button>
+                      </div>
+    ">
+                    </button>
+                  </li>
+                  <li class="lead">In order to provide better services, we might need to contact you.</li>
+                  <li class="follow">Do we or does our ad partner have your consent to contact you directly?</li>
+                  <li>
+                    <fieldset class="switch">
+                      <input id="contact" type="checkbox" name="contact"/>
+                      <label for="contact"></label>
+                    </fieldset>
+                    <span>I consent I am willing to be contacted to get better services.</span>
+                    <button type="button" class="btn btn-primary mi mi-Help"
+                            data-container="body"
+                            data-toggle="popover"
+                            data-placement="right"
+                            title="Privacy consent"
+                            data-html="true"
+                            data-content="
+                      <div>
+                          We would like to provide better service based on your data. But it's OK if you have privacy concern.
+                      </div>
+                      <div class='popover-footer'>
+                          <button class='btn btn-primary' data-dismiss='popover'>
+                              OK
+                          </button>
+                      </div>
+    ">
+                    </button>
+                    <div class="alert alert-danger" style="margin-top:2%;" role="alert">
+                      We will never contact you directly without your consent.
+                      <a href="privacy.html" class="alert-link">Privacy Policy</a>
+                    </div>
+                    <br>
+                  </li>
+                  <li class="follow contact-yes">If yes, how do you want us to contact you?
+                    <button type="button" class="btn btn-primary mi mi-Help"
+                                                                                                   data-container="body"
+                                                                                                   data-toggle="popover"
+                                                                                                   data-placement="right"
+                                                                                                   title="Do you want to receive offers from insurance companies?"
+                                                                                                   data-html="true"
+                                                                                                   data-content="
+                      <div>
+                          If you want to receive customized offers from insurance companies, please toggle this button.
+                      </div>
+                      <div class='popover-footer'>
+                          <button class='btn btn-primary' data-dismiss='popover'>
+                              OK
+                          </button>
+                      </div>
+    ">
+                  </button>
+                  </li>
+                  <li class="contact-yes">
+                    <fieldset>
+                      <input type="checkbox" id="via-phone" />
+                      <label for="via-phone">Please call me</label>
+                    </fieldset>
+                    <fieldset>
+                      <input type="checkbox" id="via-text" />
+                      <label for="via-text">Please send a text message</label>
+                    </fieldset>
+                    <fieldset>
+                      <input type="checkbox" id="via-email" />
+                      <label for="via-email">Please email me</label>
+                    </fieldset>
+                    <fieldset>
+                      <input type="checkbox" id="via-mail" />
+                      <label for="via-mail">Please mail me</label>
+                    </fieldset>
+                  </li>
+
+                </ul>
+
+
+
+                <!--<fieldset class="invisible">-->
+                  <!--<input id="url" type="hidden" value="http://getwallpapers.com/wallpaper/full/3/8/4/1183962-healthy-food-wallpaper-1920x1080-for-android.jpg">-->
+                  <!--<input type="hidden" id="color" class="input-with-button">-->
+                <!--</fieldset>-->
+
+              </form>
+
+            </aside>
+
+            <section class="col-md-3 text-right d-flex px-0">
+              <div class="tile acrylic-builder tint-60 py-5 px-md-5 acrylic medium"></div>
+            </section>
+
+
+          </div>
+
+          <div class="row mb-4 bg-white pb-5">
+            <div class="col">
+
+              <h2>Policies & Agreements</h2>
+              <br>
+              <nav class="nav nav-tabs nav-fill" role="tablist">
+                <a class="nav-item nav-link active" id="nav-posts-tab" data-toggle="tab" href="#nav-terms" role="tab" aria-controls="nav-terms" aria-selected="true">Terms of Use</a>
+                <a class="nav-item nav-link" id="nav-comments-tab" data-toggle="tab" href="#nav-privacy" role="tab" aria-controls="nav-privacy" aria-selected="false">Privacy Policy</a>
+                <a class="nav-item nav-link" id="nav-feedback-tab" data-toggle="tab" href="#nav-pharmacy" role="tab" aria-controls="nav-pharmacy" aria-selected="false">Pharmacy Privacy Practice</a>
+              </nav>
+              <div class="tab-content">
+                <div class="tab-pane  show active" id="nav-terms" role="tabpanel" aria-labelledby="nav-terms-tab">
+                  <h4>Terms of Use for Giant Eagle® Inc.</h4>
+                  <form>
+                    <fieldset>
+                      <label for="terms-of-use"></label>
+                      <textarea id="terms-of-use" rows="10" readonly>
+                        WHO WE ARE
+
+Welcome to Giant Eagle’s marketplace. We’re glad you’re here. Our family of brands, all of which may be accessed through our websites, mobile platforms, and stores (our “Sites”), which includes but is not limited to GIANT EAGLE®, MARKET DISTRICT®, GETGO®, GIFT CARD GALLERY,and CURBSIDE EXPRESS™ (the “Giant Eagle Businesses”). These terms of use (“Terms”) apply to all of our Sites. This is a legally binding agreement between you and the Giant Eagle Businesses. By accepting these Terms, you are contracting with the Giant Eagle Businesses. We hope you will familiarize yourself with these Terms, because they reflect our understanding of how our Sites operate, what you can expect from us, and what we expect from you. If there’s anything you don’t understand, ask us, either by sending us a note or calling our customer service line at 1–800–553–2324.
+
+These Terms along with our Privacy Policy make up our policies for use of our Sites. Upon downloading and/or each time access the Sites, you are agreeing to these Terms and our Privacy Policy. From time to time, we update our Terms, so please check back often. You can find out when these Terms were last revised by referring to the “Last Updated” legend at the end of the Terms.
+
+WHO YOU ARE
+
+You are one of our many visitors, or Customers who enjoy exemplary customer service, great products, services, programs, and great value. Our Sites are intended for adult shoppers. Our Sites are not intended for children under the age of 13 and we do not endeavor to attract children under the age of 13.
+
+INFORMATION WE PROVIDE
+
+We try to make our Sites a place you feel comfortable visiting and using, and while we cannot guarantee every statement on the Sites is accurately communicated, we do work hard to make sure the information we provide is thorough and accurate. From recipes, to health notices, to nutritional and labeling information, to special offers, and information contained in our pharmacy section, our goal is to keep you informed about your shopping experience. Always keep in mind that health, medical and nutritional information is general in nature and is not a substitute for actual medical or professional advice. Always consult a certified medical or health professional about information you find on our Sites that you believe affects you, including any prescription medicines or medical information; or before you embark on any diet, exercise, purchase, or lifestyle change. We may also provide information about products available in our stores or online. Because manufacturers may change information contained on a label without notifying us, we provide this information as a guideline only. Always look critically at any information presented to you and always read current labels, warnings, and directions before using or consuming a product. For additional information about a product, please contact the manufacturer.
+
+We may also provide you with links to other sites. While we do make efforts to insure the links we provide you are accurate and informational, we don’t have control over the information contained on those sites, so we do not guarantee the quality of information or any other statements made on those sites. When you click on a link that takes you away from our Sites, or opens a browser window on your mobile device, you are leaving the Giant Eagle Businesses online environment and no longer subject to these Terms. Please check the Terms of Use for all other sites you visit.
+
+We may offer special programs through our Sites. Some programs, such as the fuelperks!® program and the fuelperks+™ program, have program rules. You can view the fuelperks! program rules® and fuelperks+™ program rules. We also work with third parties from time to time to offer you additional savings and information (“Vendors”). Since Vendors with whom we work are not part of the Giant Eagle Businesses, we do not control or warrant their services. In addition, we may discontinue our relationship with a specific Vendor at any time. Please check with Vendor sites directly for their terms of use.
+
+NAVIGATING OUR SITES
+
+Our Sites may be accessed without registering with us. You are always welcome to browse our Sites as a visitor (“Visitor’). You may also register on the Site as a customer, and if you have an Advantage Card, you may choose to register that card on our Sites (collectively “Customers’). Customers may be able to download special offers directly to their cards, which will be automatically redeemed when the card is scanned at checkout with qualifying purchases. Special offers may also be scanned from certain of our apps. Customers may also store their favorite recipes on our Sites, create shopping lists and menus, participate in our online discussions, and receive email offers from us. For more information on the Advantage Card program, click here.
+
+COOKIES
+
+Portions of our Sites accept cookies. A Cookie is a piece of computer data that the computer reads. It recognizes your internet address but does not personally identify you. Cookies are used by our website server to make your navigation of our Sites easier and more useful. You may turn off Cookies by choosing to do so in your Internet browser. By turning off Cookies, you may not have the same experience as you would with the Cookies enabled, but you will still be able to access much of the Sites.
+
+YOUR CONDUCT
+
+We respect you, our Customers, and expect you to do the same while you are using our Sites. You are free to use and enjoy the Sites for your non-commercial benefit, but you may not engage in behavior that could undermine the stability or security of the Sites, subject us to legal liability, do anything that would compromise the trust we have with our customers, or use our Sites for anything but its intended uses, namely, getting to know our Stores and programs.
+
+You are responsible for maintaining the confidentiality of your Account login information and are fully responsible for all activities that occur under your Account. You agree to immediately notify us of any unauthorized use, or suspected unauthorized use of your Account or any other breach of security. We cannot and will not be liable for any loss or damage arising from your failure to comply with the above requirements.
+
+In cases where we allow community forums or reviews, we ask that you act appropriately when sharing information with others, and not harass, defame, use inflammatory or objectionable language, or engage in inappropriate activity while on the Sites. The same is true for any images you might upload to our Sites, where we allow them: please make certain those images are ones you own, are not offensive or inflammatory, and do not infringe the rights of others. While we do not generally review content that our customers share with each other, we may remove community discussions or other customer content if we have been alerted that content is offensive under our standards.
+
+In addition to the community forums we operate, many of you have shared with us a story, image, video, even text from our “My Giant Eagle Advantage” campaign. We love your stories and may want to share them with others. When you send us a story in any form, you agree that we may use all or part of your story, edited for practical or marketing reasons and possible grouped with other stories, for marketing purposes. It’s still your story, but when you send it to our Site, you give us permission to use it without compensation to you. You also waive any equitable rights with respect to ownership of any material you post. If you are not comfortable with giving us this permission, please don’t upload stories and information to our Site.
+
+COUPONS, SALES, AND SPECIAL OFFERS
+
+We make various promotional offers from time to time on our Sites. Some offers may be informational and found only on our Sites. Coupons may be printed, or may be downloaded to your Advantage Card (if you are a Customer), and in some cases, may be scanned from our apps. We ask that you review the guidelines associated with each special offer, as they will differ. Manufacturers’ coupon warranties are maintained by the individual manufacturers. Coupons offered by the Giant Eagle Businesses will each have relevant information about the duration and limitations of the coupon. In the event we have inadvertently made a typographical error on any coupon or special offer, we reserve the right to suspend redemption or terminate altogether the coupon or offer.
+
+We may also offer our visitors and/or Customers the opportunity to participate in Contests and Sweepstakes. In each case, please check the rules associated with the particular promotion to determine your eligibility and to review any privacy concerns you may have.
+
+DIGITAL RECEIPTS (“eReceipts”)
+
+When you are asked to select your eReceipts preferences, you confirm that you are an authorized user of this Advantage Card number and you agree that your receipt may be automatically emailed to this address. Other persons using your card number may also register their email addresses with this card number. Your email address may be displayed at point of sale or otherwise disclosed to other persons using this card number. It is the customer's responsibility to make sure that the address is valid and up to date and that you have adequate equipment and online access to receive and view the receipt. The Giant Eagle Businesses assume no responsibility for the successful transmission or delivery of your receipt. The Giant Eagle Businesses assume no responsibility for the disclosure of your email address to other persons with access to your card number or Advantage Card account. Other persons using this card number may choose to email their receipts to your address and you may choose to send your receipts to another email address associated with this card number.
+
+CURBSIDE EXPRESS
+
+We offer the Curbside Express service to you so that you may order your grocery items online and have your order delivered right to your car at the store you select or via home delivery in certain locations. Pricing and product availability are estimates only and are subject to change without notice prior to delivery to your car or home. This means that if you schedule a delivery for a future date, the price of the products may change depending on the time you place your order online and the time that you arrive at the store to receive your items, or when your items are processed for home delivery. You will ultimately be charged the prices shown and offered the promotions that are in effect at the time of delivery to your car, or when your items are processed for home delivery.
+
+Payment for Curbside Express services may be made via credit card (VISA, MasterCard, American Express, and Discover), Giant Eagle gift card, and in some cases with cash or a personal check. Payment for home delivery must be made online via credit card. You can pay for your order online and save your credit card information to your account. All relevant credit card information is encrypted to minimize instances of fraud.
+
+Deliveries to your car or home are subject to service based fees. You will be asked to pay once your groceries are delivered to your car or when your groceries have been prepared for home delivery. Valid eCoupons, promotions, or additional offers that are in effect at the time of delivery to your car or home will be honored at the time you make your final payment for your order. Paper coupons can only be accepted if you choose to pay for your Curbside Express order at the time of pick-up. Paper coupons will not be accepted for home delivery. You may cancel your order online up until four hours prior to the pick-up or delivery time at no cost. In case of emergencies, you may cancel your order by calling the Curbside Express department at your pick-up location, which can be found in your order confirmation email.
+
+MOBILE APPLICATIONS
+
+The following provisions apply to users of our mobile applications and users who access our Sites using mobile devices.
+
+The use of our mobile applications requires the use of a mobile device and a wireless mobile data service. Depending on your plan, you may incur additional costs or data usage fees when you use our applications or visit our Sites. You are responsible for all costs related to your wireless device and mobile data service.
+
+We may offer the ability to order items at select locations through our mobile applications. Menus, product selections and prices may vary depending on the location. If you order from a participating GetGo through our application, you will be responsible for payment, and any applicable taxes for your order at the time of ordering. You must provide valid payment card and billing information. We will provide an order confirmation and estimated total price at the time of order. Your credit card will be processed for payment prior to pick-up time. We will send you a digital receipt via e-mail containing the actual amount charged to your credit card for your GetGo order. Valid digital coupons that have been loaded onto your Giant Eagle Advantage Card may be accepted toward your payment, but paper coupons cannot be accepted. Payments cannot be accepted at the GetGo counter. If your item is not available upon your arrival at GetGo, we will offer you a substitute item or a full refund to the credit card you used to place your order.
+
+We reserve the right to discontinue mobile ordering and payment at any time.
+
+MOBILE CHECK-OUT SERVICES
+
+We may offer you the ability to scan items for purchase with a mobile device at certain locations and to check-out using the mobile device. If you use mobile check-out services, you agree to the following terms and conditions:
+
+1. You may be given the option to use your smartphone or a store owned device. If you use your smartphone, you must first download the “Giant Eagle Mobile Shopper” App found at the App Store for your device. (The App may not be available for all devices.) If you use your smartphone, you must use the store’s WIFI. We cannot guarantee connectivity with your mobile service.
+
+2. You agree to accurately scan all items when using mobile check-out services, and to pay for all items. If you are unable to scan any items for any reason, you must alert a store employee to make sure all of your items have been scanned and are listed on your receipt.
+
+3. We may audit some or all of the items in your possession. We may also review your receipt (either your paper receipt or your receipt on your digital device, including your smartphone). We may re-scan some or all of your items to verify the price. If there is a discrepancy in some or all of your item prices, the amount confirmed by the store employee will be the amount payable by you.
+
+4. We reserve the right to suspend or terminate your use of mobile check-out services. In addition, we reserve the right to modify, suspend, or eliminate mobile check-out services at any of our stores.
+
+5. Remember, your use of our mobile check-out services constitutes your acceptance of these terms.
+
+NO WARRANTY
+
+Please use our Sites at your own risk. The Sites are provided “as is,” on an as-available basis and the Giant Eagle Businesses expressly disclaim all warranties, including the warranties of merchantability, fitness for a particular purpose, and non-infringement. We are not liable for any direct, indirect, incidental, special, or consequential damages (including attorneys' fees and lost profits or savings) to you connected with use of the Sites, including the content and regardless of any negligence by us. The Giant Eagle Businesses do not guarantee that the functions contained on the Sites will be uninterrupted or error-free, that the Sites or the servers supporting it will be free of viruses or other harmful components, or that defects will be corrected even if the Giant Eagle Businesses are aware of them.
+
+We trust you understand that the Giant Eagle Businesses disclaim all responsibility for any loss, injury, claim, liability, or damage of any kind resulting from, arising out of, or in any way related to: (1) any errors in or omissions from the Sites, including, but not limited to, technical inaccuracies and typographical errors; (2) any third party websites or content therein directly or indirectly accessed through links in the Sites; (3) any information, including personal information which is posted by you or any third party, including, without limitation, information posted on any related blog; (4) the unavailability of the Sites or any portion of the Sites; (5) your use of our Sites; or (6) your use of any equipment or software in connection with our Sites.
+
+GOVERNING LAW
+
+When you use the Sites you are agreeing that your use shall be governed by and construed in accordance with the laws of the Commonwealth of Pennsylvania.
+
+EXCLUSIVE JURISDICTION
+
+Any dispute arising out of, involving, or in any way related to the Sites shall be subject to the exclusive venue and jurisdiction of the state and federal courts located in Allegheny County, Pennsylvania.
+
+INTELLECTUAL PROPERTY
+
+If it’s not yours, please don’t take or abuse it. All right, title and interest in and to the trademarks and copyrights contained on the Sites, and to the other content included on the Sites, including, without limitation, text, graphics, logos, buttons, button icons, images, audio and video clips, digital downloads, and data compilations, are the property of the Giant Eagle Businesses, or the property of a third party that has licensed its content to the Giant Eagle Businesses.
+
+If it’s not yours, please use it responsibly. You may use the information contained on our Sites for the purpose for which it was intended. You may not reproduce, redistribute or otherwise use any materials without the express written consent of the Giant Eagle Businesses. You may enjoy the materials on the Sites and use them for your personal enjoyment and in the non-commercial manner for which they were intended. All rights not expressly granted are reserved. The Giant Eagle Businesses’ trademarks and trade dress may not be used in connection with any product or service that is not part of the Giant Eagle Businesses.
+
+If it’s not yours, please don’t modify it. You agree you will not distribute, publish, transmit, modify, display or create derivative works from or exploit the contents of this Site in any way. You agree to indemnify, defend and hold harmless the Giant Eagle Businesses for any and all unauthorized uses you may make of any material on the Sites.
+
+If it is yours and you uploaded it, it’s still yours, but by putting it on our Sites, you agree to let us use all or part of it (be it text, videos, photos, etc.) for marketing purposes.
+
+If it is yours and you didn’t authorize it, please let us know. We endeavor to comply with the Digital Millennium Copyright Act. If you believe your intellectual property has been taken, please click here and review our terms on the Digital Millennium Copyright Act to find out how to convey your concerns.
+
+GIFT CARD PURCHASE TERMS AND CONDITIONS
+
+Gift card orders are limited to a maximum of $1,000 per transaction. Cards may take up to 24 hours to activate. All sales are final. Not all gift cards are available at all stores. Not responsible for lost or stolen cards. Your purchase of our brands of gift cards; Giant Eagle®, getGo®, Market District®, table by Market District®, or WetGo® are excluded from our rewards programs. Our brands of gift cards; Giant Eagle®, getGo®, Market District®, table by Market District®, or WetGo® have no fees and do not expire. Other retailer Gift Cards cannot be exchanged, returned or refunded. Other retailer gift cards are subject to various Terms and Conditions, please review the Terms and Conditions of the gift card before purchasing. Certain participating retailers are not located in all areas. Messages containing obscene or vulgar language will not be accepted. For additional information, please visit our Frequently Asked Questions.
+
+These Terms were LAST UPDATED: March 16th, 2018.
+                      </textarea>
+                    </fieldset>
+                  </form>
+                </div>
+                <div class="tab-pane " id="nav-privacy" role="tabpanel" aria-labelledby="nav-privacy-tab">
+                  <h4>Privacy Policy</h4>
+                  <form>
+                    <fieldset>
+                      <label for="privacy-policy"></label>
+                      <textarea id="privacy-policy" rows="10" readonly>
+                       Giant Eagle®, Inc. Privacy Policy
+
+This page informs you of our policies regarding the collection, use and disclosure of Personal Information we receive from users of the Site. The Notice also describes your rights with respect to PHI about you. Upon request, we will provide any revised Notice to you. We will also make copies available at our Pharmacies and post the new Notice on our website, www.gianteagle.com.
+
+1. What information do we collect about you?
+The Pharmacy is required by law to maintain the privacy of Protected Health Information ("PHI") and to provide individuals with notice of our legal duties and privacy practices with respect to PHI.
+PHI is information that may identify you and that relates to your past, present or future physical or mental health or condition and related health care services or payment for those services.
+
+2. How do we use your information
+This Notice of Privacy Practices ("Notice") describes how we may use and disclose PHI to carry out treatment, payment or health care operations and for other specified purposes that are permitted or required by law.
+The Pharmacy is required to follow the terms of this Notice. We will not use or disclose PHI about you without your written authorization, except as described in this Notice. We reserve the right to change our practices and this Notice and to make the new Notice effective for all PHI we maintain.
+
+3. What is your health information choice?
+Obtain a paper copy of the Notice upon request. You may request a copy of the Notice at any time. Even if you have agreed to receive the Notice electronically, you are still entitled to a paper copy. To obtain a paper copy, contact your local Giant Eagle pharmacist or Giant Eagle, Inc. Pharmacy Privacy Officer at 101 Kappa Drive, Pittsburgh, Pennsylvania 15238. You may obtain an electronic copy of this Notice at www.gianteagle.com.
+Request a restriction on certain uses and disclosures of PHI. You have the right to request additional restrictions on our use or disclosure of PHI about you by sending a written request to Giant Eagle, Inc. Pharmacy Privacy Officer at 101 Kappa Drive, Pittsburgh, Pennsylvania 15238. We are not required to agree to those restrictions; unless the restriction is for a disclosure to a health plan for health services or items paid out-of-pocket in full, unless such a disclosure is required by law. Our Pharmacies generally transmit prescriptions electronically to health plans when your prescription is received electronically (not when you pick up the prescription). If you wish to request that we not disclose the prescription to your health plan, you should obtain a paper prescription and make the request for restriction at the time you present the paper prescription to our Pharmacy.
+Inspect and obtain a copy of PHI. You have the right to access and copy PHI about you contained in a designated record set for as long as the Pharmacy maintains the PHI. The designated record set usually will include prescription and billing records. We may impose charges for the cost involved in providing copies, such as labor, supplies, and postage, as permitted by law. If your records are maintained electronically, you have the right to specify that the records you requested are to be provided in electronic form. We will accommodate your request for a specific electronic form or format as long as we are able to readily produce a copy in the requested form or format. If we cannot do so, we will work with you to reach agreement on an alternative readable electronic form. To inspect or copy PHI about you, you must send a written request to your local Giant Eagle pharmacist or Giant Eagle, Inc. Pharmacy Privacy Officer at 101 Kappa Drive, Pittsburgh, Pennsylvania 15238 (certain requests may be verbal). We may charge you a fee for the costs of copying, mailing and supplies that are necessary to fulfill your request. We may deny your request to inspect and copy in certain limited circumstances. If you are denied access to PHI about you, you may request that the denial be reviewed.
+Request an amendment of PHI. If you feel that PHI we maintain about you in a designated record set is incomplete or incorrect, you may request that we amend it. You may request an amendment for as long as we maintain the PHI in a designated record set. To request an amendment, you must send a written request to Giant Eagle, Inc. Pharmacy Privacy Officer at 101 Kappa Drive, Pittsburgh, Pennsylvania 15238. You must include a reason that supports your request. In certain cases, we may deny your request for amendment. If we deny your request for amendment, you have the right to file a statement of disagreement with the decision and we may give a rebuttal to your statement.
+Receive an accounting of disclosures of PHI. You have the right to receive an accounting of the disclosures we have made of PHI about you for most purposes other than treatment, payment, or health care operations. The accounting will exclude certain disclosures, such as disclosures made directly to you, disclosures you authorize, disclosures to friends or family members involved in your care, and disclosures for notification purposes. The right to receive an accounting is subject to certain other exceptions, restrictions, and limitations. To request an accounting, you must submit a request in writing to Giant Eagle, Inc. Pharmacy Privacy Officer, 101 Kappa Drive, Pittsburgh, Pennsylvania 15238. Your request must specify the time period, but the time period may not be longer than six years prior to the date you make your request. The first accounting time period you request within a 12 month period will be provided free of charge, but you may be charged for the cost of providing additional accountings. We will notify you of the cost involved and you may choose to withdraw or modify your request at that time.
+Request communications of PHI by alternative means or at alternative locations. For instance, you may request that we contact you about medical matters only in writing or at a different residence or post office box. To request confidential communication of PHI about you, you must submit a request in writing to the Giant Eagle, Inc. Pharmacy Privacy Officer, 101 Kappa Drive, Pittsburgh, Pennsylvania 15238. Your request must state how or where you would like to be contacted. We will accommodate all reasonable requests.
+
+4. How we may use or disclose PHI?
+We will use PHI for treatment. Example: Information obtained by the pharmacist will be used to dispense prescription medications to you. We will document in your record information related to the medications dispensed to you and services provided to you as part of our interest in your treatment. We may also send you refill reminders, new product offers and other services information.
+We will use PHI for payment. Example: We will contact your insurer or pharmacy benefit manager to determine whether it will pay for your prescription and the amount of your copayment. We will bill you or a third-party payor for the cost of prescription medications dispensed to you. The information on or accompanying the bill may include information that identifies you, as well as the prescriptions you are taking. We will use PHI for health care operations. Example: The Pharmacy may use information in your health record to monitor the performance of the pharmacists providing treatment to you. This information will be used in an effort to continually improve the quality and effectiveness of the health care and service we provide.
+Health-related communications: We may contact you to provide refill reminders or information about treatment alternatives or other health-related benefits and services that may be of interest to you.
+
+
+5. To whom do we disclose your information?
+Business associates: There are some services provided by us through contracts with business associates who may require access to your PHI. Examples include accountants, auditors and others who provide services involving your PHI such as records storage or destruction companies. When these services are contracted for, we may disclose PHI about you to our business associate so that they can perform the job we have asked them to do and bill you or your third-party payor for services rendered. To protect PHI about you, we require the business associate to enter into written agreements to appropriately safeguard the PHI.
+Communication with individuals involved in your care or payment for your care: Health professionals such as pharmacists, using their professional judgment, may disclose to a family member, other relative, close personal friend or any person you identify, PHI relevant to that person’s involvement in your care or payment related to your care.
+Food and Drug Administration (FDA): We may disclose to the FDA, or persons under the jurisdiction of the FDA, PHI relative to adverse events with respect to drugs, foods, supplements, products and product defects, or post marketing surveillance information to enable product recalls, repairs, or replacement.
+Worker’s compensation: We may disclose PHI about you as authorized by and as necessary to comply with laws relating to worker’s compensation or similar programs established by law.
+Public health: As required by law, we may disclose PHI about you to public health or legal authorities charged with preventing or controlling disease, injury, or disability.
+Law enforcement: We may disclose PHI about you for law enforcement purposes as required by law or in response to a valid subpoena or other legal process.
+As required by law: We must disclose PHI about you when required to do so by law.
+Health oversight activities: We may disclose PHI about you to an oversight agency for activities authorized by law. These oversight activities include audits, investigations, and inspections, as necessary for our licensure and for the government to monitor the health care system, government programs, and compliance with civil rights laws.
+Judicial and administrative proceedings: If you are involved in a lawsuit or a dispute, we may disclose PHI about you in response to a court or administrative order. We may also disclose PHI about you in response to a subpoena, discovery request, or other lawful process by someone else involved in the dispute.
+
+6. What activities are permitted to use or disclose PHI about you?
+Research: We may disclose PHI about you to researchers when their research has been approved by an institutional review board that has reviewed the research proposal and established protocols to ensure the privacy of your information.
+Coroners, medical examiners, and funeral directors: We may release PHI about you to a coroner or medical examiner. This may be necessary, for example, to identify a deceased person or determine the cause of death. We may also disclose PHI to funeral directors consistent with applicable law to carry out their duties.
+Notification: We may use or disclose PHI about you to notify or assist in notifying a family member, personal representative, or another person responsible for your care, your location, and your general condition.
+Correctional institution: If you are or become an inmate of a correctional institution, we may disclose PHI to the institution or its agents when necessary for your health or the health and safety of others.
+To avert a serious threat to health or safety: We may use and disclose PHI about you when necessary to prevent a serious threat to your health and safety or the health and safety of the public or another person.
+Military and veterans: If you are a member of the armed forces, we may release PHI about you as required by military command authorities. We may also release PHI about foreign military personnel to the appropriate military authority.
+National security and intelligence activities: We may release PHI about you to authorized federal officials for intelligence, counterintelligence, and other national security activities authorized by law.
+Protective services for the President and others: We may disclose PHI about you to authorized federal official so they may provide protection to the President, other authorized persons or foreign heads of state or conduct special investigations.
+Victims of abuse, neglect, or domestic violence: We may disclose PHI about you to a government authority, such as a social service or protective services agency, if we reasonably believe you are a victim of abuse, neglect, or domestic violence. We will only disclose this type of information to the extent required by law, if you agree to the disclosure, or if the disclosure is allowed by law and we believe it is necessary to prevent serious harm to you or someone else or the law enforcement or public official that is to receive the report represents that it is necessary and will not be used against you.
+
+ 7. Other Uses and Disclosures of PHI
+The Pharmacy will obtain your written authorization before using or disclosing PHI about you for purposes other than those provided for above or as otherwise permitted or required by law. We are required to obtain your authorization:
+To use and disclose your protected health information for most marketing purposes
+To sell your protected health information.
+You may revoke an authorization in writing at any time. Upon receipt of the written revocation, we will stop using or disclosing PHI about you, except to the extent that we have already taken action in reliance on the authorization.
+We may use portions of your PHI after de-identification for marketing purposes. De-identification means removing all information that can be used to identify you as set by law. This information will be used to generate advertisements and other marketing campaigns.
+
+8. Please Note
+We will ask for your permission for every purpose put forth by this notice. Your permission can expire at any time, and we will inform you regarding the expired permissions using your chosen form of communication.
+If you give incorrect information during the time of permission, it will be invalid. Giant Eagle will not be liable under these circumstances.
+
+9. More Information or to Report a Problem
+If you have questions or would like additional information about the Pharmacy’s privacy practices, you may contact the Pharmacy Privacy Officer, Giant Eagle, Inc. at 101 Kappa Drive, Pittsburgh, Pennsylvania 15238. If you believe your privacy rights have been violated, you can file a complaint with the Pharmacy Privacy Officer, Giant Eagle, Inc., 101 Kappa Drive, Pittsburgh, Pennsylvania 15238 or with the Secretary of Health and Human Services. There will be no retaliation for filing a complaint.
+
+
+Effective Date:
+This Notice is effective as of June, 7, 2018.
+Copyright © 2018 Giant Eagle, Inc. All Rights Reserved.
+This Policy was LAST UPDATED: June 6, 2018
+
+                      </textarea>
+                    </fieldset>
+                  </form>
+                  <div class="alert alert-primary" role="alert">
+                    Tired of jargons? We have made our Privacy Policy easier to read.
+                    <a href="privacy.html" class="alert-link">Privacy Policy</a>
+                  </div>
+                </div>
+                <div class="tab-pane " id="nav-pharmacy" role="tabpanel" aria-labelledby="nav-pharmacy-tab">
+                  <h4>Giant Eagle®, Inc. Notice of Pharmacy Privacy Practices</h4>
+                  <form>
+                    <fieldset>
+                      <label for="pharmacy-privacy"></label>
+                      <textarea id="pharmacy-privacy" rows="10" readonly>
+                       THIS NOTICE DESCRIBES HOW MEDICAL INFORMATION ABOUT YOU MAY BE USED AND DISCLOSED AND HOW YOU CAN GET ACCESS TO THIS INFORMATION. PLEASE REVIEW IT CAREFULLY.
+
+The Pharmacy is required by law to maintain the privacy of Protected Health Information ("PHI") and to provide individuals with notice of our legal duties and privacy practices with respect to PHI. PHI is information that may identify you and that relates to your past, present or future physical or mental health or condition and related health care services or payment for those services. This Notice of Privacy Practices ("Notice") describes how we may use and disclose PHI to carry out treatment, payment or health care operations and for other specified purposes that are permitted or required by law. The Notice also describes your rights with respect to PHI about you.
+
+The Pharmacy is required to follow the terms of this Notice. We will not use or disclose PHI about you without your written authorization, except as described in this Notice. We reserve the right to change our practices and this Notice and to make the new Notice effective for all PHI we maintain. Upon request, we will provide any revised Notice to you. We will also make copies available at our Pharmacies and post the new Notice on our website, www.gianteagle.com.
+
+Your Health Information Rights
+You have the following rights with respect to PHI about you:
+
+Obtain a paper copy of the Notice upon request. You may request a copy of the Notice at any time. Even if you have agreed to receive the Notice electronically, you are still entitled to a paper copy. To obtain a paper copy, contact your local Giant Eagle pharmacist or Giant Eagle, Inc. Pharmacy Privacy Officer at 101 Kappa Drive, Pittsburgh, Pennsylvania 15238. You may obtain an electronic copy of this Notice at www.gianteagle.com.
+
+Request a restriction on certain uses and disclosures of PHI. You have the right to request additional restrictions on our use or disclosure of PHI about you by sending a written request to Giant Eagle, Inc. Pharmacy Privacy Officer at 101 Kappa Drive, Pittsburgh, Pennsylvania 15238. We are not required to agree to those restrictions; unless the restriction is for a disclosure to a health plan for health services or items paid out-of-pocket in full, unless such a disclosure is required by law. Our Pharmacies generally transmit prescriptions electronically to health plans when your prescription is received electronically (not when you pick up the prescription). If you wish to request that we not disclose the prescription to your health plan, you should obtain a paper prescription and make the request for restriction at the time you present the paper prescription to our Pharmacy.
+
+Inspect and obtain a copy of PHI. You have the right to access and copy PHI about you contained in a designated record set for as long as the Pharmacy maintains the PHI. The designated record set usually will include prescription and billing records. We may impose charges for the cost involved in providing copies, such as labor, supplies, and postage, as permitted by law. If your records are maintained electronically, you have the right to specify that the records you requested are to be provided in electronic form. We will accommodate your request for a specific electronic form or format as long as we are able to readily produce a copy in the requested form or format. If we cannot do so, we will work with you to reach agreement on an alternative readable electronic form. To inspect or copy PHI about you, you must send a written request to your local Giant Eagle pharmacist or Giant Eagle, Inc. Pharmacy Privacy Officer at 101 Kappa Drive, Pittsburgh, Pennsylvania 15238 (certain requests may be verbal). We may charge you a fee for the costs of copying, mailing and supplies that are necessary to fulfill your request. We may deny your request to inspect and copy in certain limited circumstances. If you are denied access to PHI about you, you may request that the denial be reviewed.
+
+Request an amendment of PHI. If you feel that PHI we maintain about you in a designated record set is incomplete or incorrect, you may request that we amend it. You may request an amendment for as long as we maintain the PHI in a designated record set. To request an amendment, you must send a written request to Giant Eagle, Inc. Pharmacy Privacy Officer at 101 Kappa Drive, Pittsburgh, Pennsylvania 15238. You must include a reason that supports your request. In certain cases, we may deny your request for amendment. If we deny your request for amendment, you have the right to file a statement of disagreement with the decision and we may give a rebuttal to your statement.
+
+Receive an accounting of disclosures of PHI. You have the right to receive an accounting of the disclosures we have made of PHI about you for most purposes other than treatment, payment, or health care operations. The accounting will exclude certain disclosures, such as disclosures made directly to you, disclosures you authorize, disclosures to friends or family members involved in your care, and disclosures for notification purposes. The right to receive an accounting is subject to certain other exceptions, restrictions, and limitations. To request an accounting, you must submit a request in writing to Giant Eagle, Inc. Pharmacy Privacy Officer, 101 Kappa Drive, Pittsburgh, Pennsylvania 15238. Your request must specify the time period, but the time period may not be longer than six years prior to the date you make your request. The first accounting time period you request within a 12 month period will be provided free of charge, but you may be charged for the cost of providing additional accountings. We will notify you of the cost involved and you may choose to withdraw or modify your request at that time.
+
+Request communications of PHI by alternative means or at alternative locations. For instance, you may request that we contact you about medical matters only in writing or at a different residence or post office box. To request confidential communication of PHI about you, you must submit a request in writing to the Giant Eagle, Inc. Pharmacy Privacy Officer, 101 Kappa Drive, Pittsburgh, Pennsylvania 15238. Your request must state how or where you would like to be contacted. We will accommodate all reasonable requests.
+
+Examples of How We May Use and Disclose PHI
+The following are descriptions and examples of ways we use and disclose PHI:
+
+We will use PHI for treatment. Example: Information obtained by the pharmacist will be used to dispense prescription medications to you. We will document in your record information related to the medications dispensed to you and services provided to you as part of our interest in your treatment. We may also send you refill reminders, new product offers and other services information.
+
+We will use PHI for payment. Example: We will contact your insurer or pharmacy benefit manager to determine whether it will pay for your prescription and the amount of your copayment. We will bill you or a third-party payor for the cost of prescription medications dispensed to you. The information on or accompanying the bill may include information that identifies you, as well as the prescriptions you are taking. We will use PHI for health care operations. Example: The Pharmacy may use information in your health record to monitor the performance of the pharmacists providing treatment to you. This information will be used in an effort to continually improve the quality and effectiveness of the health care and service we provide.
+
+We are likely to use or disclose PHI for the following purposes:
+
+Business associates: There are some services provided by us through contracts with business associates who may require access to your PHI. Examples include accountants, auditors and others who provide services involving your PHI such as records storage or destruction companies. When these services are contracted for, we may disclose PHI about you to our business associate so that they can perform the job we have asked them to do and bill you or your third-party payor for services rendered. To protect PHI about you, we require the business associate to enter into written agreements to appropriately safeguard the PHI.
+
+Communication with individuals involved in your care or payment for your care: Health professionals such as pharmacists, using their professional judgment, may disclose to a family member, other relative, close personal friend or any person you identify, PHI relevant to that person’s involvement in your care or payment related to your care.
+
+Health-related communications: We may contact you to provide refill reminders or information about treatment alternatives or other health-related benefits and services that may be of interest to you.
+
+Food and Drug Administration (FDA): We may disclose to the FDA, or persons under the jurisdiction of the FDA, PHI relative to adverse events with respect to drugs, foods, supplements, products and product defects, or post marketing surveillance information to enable product recalls, repairs, or replacement.
+
+Worker’s compensation: We may disclose PHI about you as authorized by and as necessary to comply with laws relating to worker’s compensation or similar programs established by law.
+
+Public health: As required by law, we may disclose PHI about you to public health or legal authorities charged with preventing or controlling disease, injury, or disability.
+
+Law enforcement: We may disclose PHI about you for law enforcement purposes as required by law or in response to a valid subpoena or other legal process.
+
+As required by law: We must disclose PHI about you when required to do so by law.
+
+Health oversight activities: We may disclose PHI about you to an oversight agency for activities authorized by law. These oversight activities include audits, investigations, and inspections, as necessary for our licensure and for the government to monitor the health care system, government programs, and compliance with civil rights laws.
+
+Judicial and administrative proceedings: If you are involved in a lawsuit or a dispute, we may disclose PHI about you in response to a court or administrative order. We may also disclose PHI about you in response to a subpoena, discovery request, or other lawful process by someone else involved in the dispute.
+
+We are permitted to use or disclose PHI about you for the following purposes:
+
+Research: We may disclose PHI about you to researchers when their research has been approved by an institutional review board that has reviewed the research proposal and established protocols to ensure the privacy of your information.
+
+Coroners, medical examiners, and funeral directors: We may release PHI about you to a coroner or medical examiner. This may be necessary, for example, to identify a deceased person or determine the cause of death. We may also disclose PHI to funeral directors consistent with applicable law to carry out their duties.
+
+Notification: We may use or disclose PHI about you to notify or assist in notifying a family member, personal representative, or another person responsible for your care, your location, and your general condition.
+
+Correctional institution: If you are or become an inmate of a correctional institution, we may disclose PHI to the institution or its agents when necessary for your health or the health and safety of others.
+
+To avert a serious threat to health or safety: We may use and disclose PHI about you when necessary to prevent a serious threat to your health and safety or the health and safety of the public or another person.
+
+Military and veterans: If you are a member of the armed forces, we may release PHI about you as required by military command authorities. We may also release PHI about foreign military personnel to the appropriate military authority.
+
+National security and intelligence activities: We may release PHI about you to authorized federal officials for intelligence, counterintelligence, and other national security activities authorized by law.
+
+Protective services for the President and others: We may disclose PHI about you to authorized federal official so they may provide protection to the President, other authorized persons or foreign heads of state or conduct special investigations.
+
+Victims of abuse, neglect, or domestic violence: We may disclose PHI about you to a government authority, such as a social service or protective services agency, if we reasonably believe you are a victim of abuse, neglect, or domestic violence. We will only disclose this type of information to the extent required by law, if you agree to the disclosure, or if the disclosure is allowed by law and we believe it is necessary to prevent serious harm to you or someone else or the law enforcement or public official that is to receive the report represents that it is necessary and will not be used against you.
+
+Other Uses and Disclosures of PHI
+
+The Pharmacy will obtain your written authorization before using or disclosing PHI about you for purposes other than those provided for above or as otherwise permitted or required by law. We are required to obtain your authorization:
+
+To use and disclose your protected health information for most marketing purposes
+To sell your protected health information.
+You may revoke an authorization in writing at any time. Upon receipt of the written revocation, we will stop using or disclosing PHI about you, except to the extent that we have already taken action in reliance on the authorization.
+
+For More Information or to Report a Problem
+
+If you have questions or would like additional information about the Pharmacy’s privacy practices, you may contact the Pharmacy Privacy Officer, Giant Eagle, Inc. at 101 Kappa Drive, Pittsburgh, Pennsylvania 15238. If you believe your privacy rights have been violated, you can file a complaint with the Pharmacy Privacy Officer, Giant Eagle, Inc., 101 Kappa Drive, Pittsburgh, Pennsylvania 15238 or with the Secretary of Health and Human Services. There will be no retaliation for filing a complaint.
+
+Effective Date
+
+This Notice is effective as of September 23, 2013.
+
+                      </textarea>
+                    </fieldset>
+                  </form>
+                </div>
+              </div>
+              <hr>
+              <form>
+                <h4>Agreement<button type="button" class="btn btn-primary mi mi-Help"
+                                     data-container="body"
+                                     data-toggle="popover"
+                                     data-placement="right"
+                                     title="Is it OK to disagree?"
+                                     data-html="true"
+                                     data-content="
+                      <div>
+                          It's OK to disagree with our terms. However, as a result, we might not able to provide the services as stated in our terms.
+                      </div>
+                      <div class='popover-footer'>
+                          <button class='btn btn-primary' data-dismiss='popover'>
+                              OK
+                          </button>
+                      </div>
+    ">
+                </button></h4>
+                <br>
+                <fieldset>
+                  <input type="checkbox" id="terms-agree" />
+                  <label for="terms-agree">Check here to indicate that you have read and agree to our Terms of Use for Giant Eagle® Inc.</label>
+                </fieldset>
+                <fieldset>
+                  <input type="checkbox" id="privacy-agree" />
+                  <label for="privacy-agree">Check here to indicate that you have read and agree to our Privacy Policies</label>
+                </fieldset>
+                <fieldset>
+                  <input type="checkbox" id="pharmacy-agree" />
+                  <label for="pharmacy-agree">Check here to indicate that you have read and agree to our Notice of Pharmacy Privacy Practices</label>
+                </fieldset>
+                <button type="button" class="btn btn-primary btn-block" onClick="window.location.reload()">Enroll</button>
+              </form>
+          </div>
+        </div>
+
+        <script>
+
+          function defer(method) {
+            if (window.jQuery && window.$) {
+              method();
+            } else {
+              setTimeout(function() { defer(method) }, 50);
+            }
+          }
+
+          function init(){
+
+            var $body          = $("body");
+            var background = "http://getwallpapers.com/wallpaper/full/3/8/4/1183962-healthy-food-wallpaper-1920x1080-for-android.jpg";
+
+
+            $body.css({
+              "background": ('url("' + background + '") center/cover'),
+              "backgroundAttachment": "fixed"
+            });
+
+            $(".consent-yes").hide();
+            $("#consent").change(function(){
+              console.log($(this).prop("checked"));
+              if ($(this).prop("checked") == true) {
+                $(".consent-yes").show();
+              } else {
+                $(".consent-yes").hide();
+              }
+            });
+            $(".contact-yes").hide();
+            $("#contact").change(function(){
+              console.log($(this).prop("checked"));
+              if ($(this).prop("checked") == true) {
+                $(".contact-yes").show();
+              } else {
+                $(".contact-yes").hide();
+              }
+            })
+
+          }
+
+          defer(init);
+
+
+
+
+        </script>
+      </div>
+
+
+      </div>
+    </main>
+
+    <footer class="page-footer mt-5 p-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-md">
+            <h6>About Us</h6>
+            <ul class="clear">
+              <li><a href="#">Quick Facts</a></li>
+              <li><a href="#">Jobs</a></li>
+              <li><a href="#">Inclusion and Diversity</a></li>
+              <li><a href="#">Awards & Accolades</a></li>
+              <li><a href="#">Our Brands</a></li>
+              <li><a href="#">Our History</a></li>
+              <li><a href="#">Real Estate</a></li>
+              <li><a href="#">Press Room</a></li>
+              <li><a href="#">Community Giving</a></li>
+              <li><a href="#">Corporate Social Responsibility</a></li>
+              <li><a href="#">In Your Community</a></li>
+              <li><a href="#">Education & Community Enrichment</a></li>
+            </ul>
+          </div>
+          <div class="col-md">
+            <h6>Customer Service</h6>
+            <ul class="clear">
+              <li><a href="#">Customer Satisfaction Survey</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">Product Recalls</a></li>
+              <li><a href="#">Policies</a></li>
+              <li><a href="#">Supplier Inquiries</a></li>
+            </ul>
+          </div>
+          <div class="col-md">
+            <h6>Quick Links</h6>
+            <ul class="clear">
+              <li><a href="#">Account Registration</a></li>
+              <li><a href="#">Weekly Sale</a></li>
+              <li><a href="#">Giant Eagle eAdvantage</a></li>
+              <li><a href="#">eCoupons</a></li>
+              <li><a href="#">Recipes</a></li>
+              <li><a href="#">Pharmacy Refills</a></li>
+              <li><a href="#">Store Locator</a></li>
+              <li><a href="#">Gift Cards</a></li>
+              <li><a href="#">Team Members</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <section class="bg-dimgrey text-white py-2">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <strong><span class="brand-txt">Copyright © 2018 Giant Eagle, Inc. All Rights Reserved.</span></strong>
+            </div>
+            <div class="col text-right">
+              <a class="text-white" href="#"><i class="mi mi-facebook mr-2"></i></a>
+              <a class="text-white" href="#"><i class="mi mi-twitter mr-2"></i></a>
+              <a class="text-white" href="#"><i class="mi mi-linkedin mr-2"></i></a>
+              <a class="text-white" href="#"><i class="mi mi-instagram mr-2"></i></a>
+              <a class="text-white" href="#"><i class="mi mi-reddit-alien mr-2"></i></a>
+              <a style="font-size:10px;">Design & Developed by Carson. Chen</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+  </div>
+
+  <!-- JavaScript dependencies -->
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <!-- Popper -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+  <!-- Bootstrap JavaScript -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+  <!-- Fluent Kit JavaScript -->
+  <script src="../js/fluent-kit.min.js"></script>
+
+</body>
+
+</html>
